@@ -26,11 +26,27 @@
   color: #ccc;
   text-decoration: none;
   font-size: 14px;
-  transition: 0.3s;
+  transition: all 0.3s ease;
+  position: relative;
 }
 
 .links a:hover {
   color: orange;
+}
+
+.links a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: orange;
+  transition: width 0.3s ease;
+}
+
+.links a:hover::after {
+  width: 100%;
 }
 
 .visit-btn {
@@ -44,6 +60,12 @@
   width: 100px;
   height: 40px;
   text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.visit-btn:hover {
+  background: orange;
+  color: black;
 }
 .visit-btn > p {
   font-family: var(--heading);
@@ -57,12 +79,24 @@
   flex-direction: column;
   gap: 5px;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .hamburger span {
   width: 25px;
   height: 3px;
   background: white;
+  transition: 0.3s;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 .logo-nav {
   display: flex;
@@ -80,13 +114,15 @@
     width: 100%;
     padding: 40px 0;
     align-items: center;
-    transform: translateX(100%);
+    transform: translateY(-150%);
+    opacity: 0;
     transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     border-bottom: 1px solid #222;
   }
 
   .links.active {
-    transform: translateX(0);
+    transform: translateY(0);
+    opacity: 1;
   }
 
   .links a {

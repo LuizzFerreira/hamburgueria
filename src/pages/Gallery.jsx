@@ -1,13 +1,21 @@
 import { useState } from "react";
 import "../styles/Gallery.css";
+import img1 from "../assets/img/image-15.webp";
+import img2 from "../assets/img/image-1.webp";
+import img3 from "../assets/img/image-4.webp";
+import img4 from "../assets/img/image-14.webp";
+import img5 from "../assets/img/image-11.webp";
+import img6 from "../assets/img/image-10.webp";
+import img7 from "../assets/img/image-5.webp";
 
 const images = [
-  { src: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd", category: "burgers" },
-  { src: "https://images.unsplash.com/photo-1552566626-52f8b828add9", category: "people" },
-  { src: "https://images.unsplash.com/photo-1550547660-d9450f859349", category: "burgers" },
-  { src: "https://images.unsplash.com/photo-1555992336-03a23c7b20ee", category: "atmosphere" },
-  { src: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092", category: "burgers" },
-  { src: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877", category: "burgers" },
+  { src: img1, category: "burgers" },
+  { src: img2, category: "people" },
+  { src: img3, category: "burgers" },
+  { src: img4, category: "atmosphere" },
+  { src: img5, category: "burgers" },
+  { src: img6, category: "burgers" },
+  { src: img7, category: "atmosphere" },
 ];
 
 export default function Gallery() {
@@ -22,17 +30,16 @@ export default function Gallery() {
     <section className="Gallery">
       {/* HEADER */}
       <div className="Gallery-header">
-        <h1>THE ART OF THE SIZZLE</h1>
+        <h1>A ARTE DO SABOR</h1>
         <p>
-          A visual journey through our kitchen, our crafts, and the community
-          that makes SNACK a neighborhood staple.
+          Uma jornada visual pela nossa cozinha, nossas criações e a comunidade que faz da SNACK um ponto de referência.
         </p>
 
         <div className="filters">
-          <button onClick={() => setFilter("all")}>All Frames</button>
-          <button onClick={() => setFilter("burgers")}>The Burgers</button>
-          <button onClick={() => setFilter("atmosphere")}>Atmosphere</button>
-          <button onClick={() => setFilter("people")}>Our People</button>
+          <button onClick={() => setFilter("all")}>Tudo</button>
+          <button onClick={() => setFilter("burgers")}>Os Burguers</button>
+          <button onClick={() => setFilter("atmosphere")}>Ambiente</button>
+          <button onClick={() => setFilter("people")}>Nossa Gente</button>
         </div>
       </div>
 
@@ -49,10 +56,10 @@ export default function Gallery() {
 
       {/* CTA FINAL */}
       <div className="Gallery-cta">
-        <h2>READY FOR THE REAL THING?</h2>
+        <h2>PRONTO PARA A EXPERIÊNCIA REAL?</h2>
         <div className="buttons">
-          <button className="primary">Book a Table</button>
-          <button className="secondary">Order Online</button>
+          <button className="primary">Visite-nos</button>
+          <button className="secondary">Peça Online</button>
         </div>
       </div>
     </section>

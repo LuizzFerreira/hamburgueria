@@ -5,11 +5,11 @@ export default function Location() {
     <section className="location-page">
       {/* HEADER */}
       <div className="location-header">
-        <span className="tag">FIND US</span>
-        <h1>Crafting Burgers in the Heart of the City</h1>
+        <span className="tag">ONDE ESTAMOS</span>
+        <h1>Hambúrgueres Artesanais no Coração da Cidade</h1>
         <p>
-          Located in the vibrant industrial district, SNACK brings artisanal
-          craftsmanship to the classic burger joint experience.
+          Localizada no vibrante centro da cidade, a SNACK traz o artesanato
+          culinário para a experiência clássica de uma hamburgueria.
         </p>
       </div>
 
@@ -25,7 +25,7 @@ export default function Location() {
           ></iframe>
 
           <div className="map-overlay">
-            <h3>Downtown Flagship</h3>
+            <h3>Nossa Sede</h3>
             <p>Rua Brasília, 112 - Centro, Apuí - AM</p>
           </div>
         </div>
@@ -33,13 +33,12 @@ export default function Location() {
         {/* SIDE INFO */}
         <div className="side">
           <div className="card">
-            <h3>Connect</h3>
-            <p>📞 +1 (555) 012-3456</p>
-            <p>✉️ hello@snackburgers.com</p>
+            <h3>Contato</h3>
+            <p>📞 +55 (97) 98416 - 0533</p>
           </div>
 
           <div className="card">
-            <h3>Service Hours</h3>
+            <h3>Horário de Funcionamento</h3>
 
             <div className="hours">
               <p><strong>Seg:</strong> 14:00 - 00:00</p>
@@ -60,8 +59,8 @@ export default function Location() {
         <div className="img img2" />
 
         <div className="follow">
-          <h3>Follow the Sizzle</h3>
-          <p>Join our community for secret menu drops and daily specials.</p>
+          <h3>Siga o Sabor</h3>
+          <p>Junte-se à nossa comunidade para novidades e promoções diárias.</p>
 
           <div className="icons">
             <span>🔗</span>
@@ -69,7 +68,7 @@ export default function Location() {
             <span>🐦</span>
           </div>
 
-          <button>JOIN THE SNACK CLUB</button>
+          <button>FAÇA PARTE DO CLUBE SNACK</button>
         </div>
       </div>
     </section>
