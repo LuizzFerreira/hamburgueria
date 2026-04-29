@@ -174,6 +174,123 @@ const MENU_DATA = [
     ]
   },
   {
+  category: "Açaí",
+    items: [
+      {
+        name: "Copo de 300ml",
+        price: "R$ 13,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1748117903398blob_600.webp",
+        link: "https://pedido.anota.ai/product/68322991e2f6b16cea29024d/0/snack-burguer-."
+      },
+      {
+        name: "Copo de 400ml",
+        price: "R$ 16,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1748118480177blob_600.webp",
+        link: "https://pedido.anota.ai/product/68322bd24beeac365b6d9934/0/snack-burguer-."
+      },
+      {
+        name: "Copo de 500ml",
+        price: "R$ 18,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1748118480177blob_600.webp",
+        link: "https://pedido.anota.ai/product/68322c9d2ea686f916fa0776/0/snack-burguer-."
+      },
+      {
+        name: "Copo de 700ml",
+        price: "R$ 25,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1748118480177blob_600.webp",
+        link: "https://pedido.anota.ai/product/68322cc733916335471715ed/0/snack-burguer-."
+      },
+      {
+        name: "Combo Família",
+        price: "R$ 45,00",
+        desc: "2 açaís de 500ml (5 complementos + 1 adicional gourmet por unidade).",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1748545121238blob_600.webp",
+        link: "https://pedido.anota.ai/product/68322e1b20f458884cbd57ec/0/snack-burguer-."
+      },
+      {
+        name: "Combo TikTok",
+        price: "R$ 25,00",
+        desc: "2 açaís de 300ml.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1748545080226blob_600.webp",
+        link: "https://pedido.anota.ai/product/68322ee021f0e4195e1a81b3/0/snack-burguer-."
+      },
+      {
+        name: "Poleta P",
+        price: "R$ 25,00",
+        desc: "4 complementos.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1748119751944blob_600.webp",
+        link: "https://pedido.anota.ai/product/683230c921f0e4195e1aed45/0/snack-burguer-."
+      },
+      {
+        name: "Poleta G",
+        price: "R$ 40,00",
+        desc: "5 complementos.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1748119818557blob_600.webp",
+        link: "https://pedido.anota.ai/product/6832310c20f458884cbde310/0/snack-burguer-."
+      },
+      {
+        name: "Batida de açaí com amendoim",
+        price: "R$ 12,00",
+        desc: "300ml.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1748124462243blob_600.webp",
+        link: "https://pedido.anota.ai/product/68323330ccb056af79a698e2/0/snack-burguer-."
+      },
+      {
+        name: "Batida de açaí gourmet de morango",
+        price: "R$ 12,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1769375363249blob_600.webp",
+        link: "https://pedido.anota.ai/product/69768684c3c2e14f161b2b57/0/snack-burguer-."
+      },
+      {
+        name: "Batida de açaí com mousse de maracujá",
+        price: "R$ 12,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1769375400849blob_600.webp",
+        link: "https://pedido.anota.ai/product/697686a9a96eeb581f4ec4ab/0/snack-burguer-."
+      },
+      {
+        name: "Batida de açaí com Chocotine",
+        price: "R$ 12,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1770677630715blob_600.webp",
+        link: "https://pedido.anota.ai/product/697a8d41a96eeb581fa0346d/0/snack-burguer-."
+      },
+      {
+        name: "Batida de açaí com creme de paçoca",
+        price: "R$ 12,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1770677689811blob_600.webp",
+        link: "https://pedido.anota.ai/product/697a8d9e0a40b3ff82ca74c4/0/snack-burguer-."
+      },
+      {
+        name: "Batida de açaí com creme ninho",
+        price: "R$ 12,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1770677736469blob_600.webp",
+        link: "https://pedido.anota.ai/product/697a8dbb1309f567f285c93e/0/snack-burguer-."
+      },
+      {
+        name: "Batida de açaí com Dorella (creme de avelã)",
+        price: "R$ 12,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1770677781008blob_600.webp",
+        link: "https://pedido.anota.ai/product/697a8dfcdbebd5f2bbcd6131/0/snack-burguer-."
+      },
+      {
+        name: "Batida de açaí com brownie",
+        price: "R$ 12,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1770677914203blob_600.webp",
+        link: "https://pedido.anota.ai/product/698a669b1a131a1214c42d48/0/snack-burguer-."
+      }
+    ]
+  },
+  {
     category: "Lanches",
     items: [
       {
@@ -279,14 +396,321 @@ const MENU_DATA = [
         price: "R$ 24,00",
         desc: "Pão brioche, alface, linguiça toscana na brasa, tomate, ovo, mussarela, cebola, barbecue e molho.",
         img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747810487380blob.webp",
-        link: "https://pedido.anota.ai/product/EXEMPLO"
+        link: "https://pedido.anota.ai/"
       },
       {
         name: "Durack",
         price: "R$ 33,00",
         desc: "Pão brioche, alface, tomate, hambúrguer, banana, mel, queijo coalho.",
         img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747811149889blob.webp",
-        link: "https://pedido.anota.ai/product/EXEMPLO"
+        link: "https://pedido.anota.ai/"
+      }
+    ]
+  },
+  {
+    category: "Combos e Barcas",
+    items: [
+      {
+        name: "Combo X-burguer",
+        price: "R$ 30,00",
+        desc: "X-burguer + batata frita.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747809628924blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b51186/0/snack-burguer-."
+      },
+      {
+        name: "Combo Classic",
+        price: "R$ 39,00",
+        desc: "Classic burguer + batata frita + refrigerante.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747808923351blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b51187/0/snack-burguer-."
+      },
+      {
+        name: "Combo Snack",
+        price: "R$ 37,00",
+        desc: "Snack burguer + batata frita + refrigerante.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747809522241blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b51188/0/snack-burguer-."
+      },
+      {
+        name: "Barca Grande",
+        price: "R$ 115,00",
+        desc: "2 Classic burguer + 2 X-burguer + acompanhamentos.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747810027640blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b5118a/0/snack-burguer-."
+      },
+      {
+        name: "Barca Média",
+        price: "R$ 80,00",
+        desc: "1 Classic burguer + 1 Snack burguer + acompanhamentos.",
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747809885755blob_600.webp",
+        link: "https://pedido.anota.ai/product/682cdda8a9d46608b8b51189/0/snack-burguer-."
+      }
+    ]
+  },
+  {
+    category: "Refrigerantes",
+    items: [
+      {
+        name: "Coca-Cola (lata)",
+        price: "R$ 6,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747796109073blob_600.webp",
+        link: "https://pedido.anota.ai/product/682d408ebd87a7f0bc01ff80/0/snack-burguer-."
+      },
+      {
+        name: "Coca-Cola Zero (lata)",
+        price: "R$ 6,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747796187781blob.webp",
+        link: "https://pedido.anota.ai/"
+      },
+      {
+        name: "Fanta Uva (lata)",
+        price: "R$ 6,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747796615621blob_600.webp",
+        link: "https://pedido.anota.ai/product/682d4288e2f6b16ceabc8cb7/0/snack-burguer-."
+      },
+      {
+        name: "Fanta Laranja (lata)",
+        price: "R$ 6,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747796691696blob_600.webp",
+        link: "https://pedido.anota.ai/product/682d42d43391633547a8f745/0/snack-burguer-."
+      },
+      {
+        name: "Guaraná (lata)",
+        price: "R$ 6,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1769121196836blob.webp",
+        link: "https://pedido.anota.ai/"
+      },
+      {
+        name: "Coca-Cola 1L",
+        price: "R$ 10,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747796923969blob.webp",
+        link: "https://pedido.anota.ai/"
+      },
+      {
+        name: "Guaraná 1L",
+        price: "R$ 10,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747797238154blob.webp",
+        link: "https://pedido.anota.ai/"
+      },
+      {
+        name: "Fanta Laranja 1L",
+        price: "R$ 10,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1761153375659blob.webp",
+        link: "https://pedido.anota.ai/"
+      },
+      {
+        name: "Coca-Cola 2L",
+        price: "R$ 15,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747796454991blob.webp",
+        link: "https://pedido.anota.ai/"
+      },
+      {
+        name: "Coca-Cola Zero 2L",
+        price: "R$ 15,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747796534444blob.webp",
+        link: "https://pedido.anota.ai/"
+      },
+      {
+        name: "Guaraná 2L",
+        price: "R$ 15,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747797269297blob.webp",
+        link: "https://pedido.anota.ai/"
+      },
+      {
+        name: "Fanta Uva 2L",
+        price: "R$ 15,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747796743816blob_600.webp",
+        link: "https://pedido.anota.ai/product/682d4309e2f6b16ceabc918f/0/snack-burguer-."
+      },
+      {
+        name: "Fanta Laranja 2L",
+        price: "R$ 15,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1747796859356blob_600.webp",
+        link: "https://pedido.anota.ai/product/682d437cccb056af79398118/0/snack-burguer-."
+      }
+    ]
+  },
+    {
+    category: "Bebidas",
+    items: [
+      {
+        name: "Água sem gás",
+        price: "R$ 5,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1748841157713blob_600.webp",
+        link: "https://pedido.anota.ai/product/683d32c799faf827f859b238/0/snack-burguer-."
+      },
+      {
+        name: "Água c/ gás",
+        price: "R$ 6,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1748841201462blob_600.webp",
+        link: "https://pedido.anota.ai/product/683d32f2be2e0a3a7c52d663/0/snack-burguer-."
+      },
+      {
+        name: "H2O Limão",
+        price: "R$ 10,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1748841074787blob.webp",
+        link: "https://pedido.anota.ai/"
+      },
+      {
+        name: "H2O Limoneto",
+        price: "R$ 10,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1748841114132blob_600.webp",
+        link: "https://pedido.anota.ai/product/683d329b5c718ecc84efcedc/0/snack-burguer-."
+      },
+      {
+        name: "Monster Ultra Paradise 473ml",
+        price: "R$ 15,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1748715415625blob.webp",
+        link: "https://pedido.anota.ai/"
+      },
+      {
+        name: "Monster Tropical Orange",
+        price: "R$ 15,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1769813180227blob.webp",
+        link: "https://pedido.anota.ai/"
+      },
+      {
+        name: "Energético Monster 473ml",
+        price: "R$ 15,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1748715493149blob_600.webp",
+        link: "https://pedido.anota.ai/product/683b47e699faf827f831b736/0/snack-burguer-."
+      },
+      {
+        name: "Energético Monster Mango Loco 473ml",
+        price: "R$ 15,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1748841035849blob_600.webp",
+        link: "https://pedido.anota.ai/product/683b48323e3c637901af6443/0/snack-burguer-."
+      },
+      {
+        name: "Monster Ultra 473ml",
+        price: "R$ 15,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1748841330669blob.webp",
+        link: "https://pedido.anota.ai/"
+      }
+    ]
+  },
+  {
+    category: "Vinhos",
+    items: [
+      {
+        name: "Vinho Freixenet Italian Rosé",
+        price: "R$ 150,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1758951926878blob_600.webp",
+        link: "https://pedido.anota.ai/product/68d779f76d9fc4ea21abc58e/0/snack-burguer-."
+      },
+      {
+        name: "Vinho EA Tinto",
+        price: "R$ 110,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1758951562660blob_600.webp",
+        link: "https://pedido.anota.ai/product/68d7788b9384f644a5b07e40/0/snack-burguer-."
+      },
+      {
+        name: "Vinho Casillero del Diablo",
+        price: "R$ 85,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1758951775805blob_600.webp",
+        link: "https://pedido.anota.ai/product/68d77960ad2cee15f50938c6/0/snack-burguer-."
+      },
+      {
+        name: "Vinho Pê Tinto",
+        price: "R$ 65,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1758951849787blob_600.webp",
+        link: "https://pedido.anota.ai/product/68d779aa8f156282767e92e1/0/snack-burguer-."
+      },
+      {
+        name: "Vinho Santa Helena Reservado Red Blend",
+        price: "R$ 55,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1758951681772blob_600.webp",
+        link: "https://pedido.anota.ai/product/68d778d28f156282767e9245/0/snack-burguer-."
+      },
+      {
+        name: "Vinho Tinto Olaria Suave",
+        price: "R$ 55,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1758952450051blob_600.webp",
+        link: "https://pedido.anota.ai/product/68d77c038f156282767e94ea/0/snack-burguer-."
+      },
+      {
+        name: "Relax Garibaldi Rosé Suave",
+        price: "R$ 48,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1758952031175blob_600.webp",
+        link: "https://pedido.anota.ai/product/68d77a606d9fc4ea21abc5bd/0/snack-burguer-."
+      },
+      {
+        name: "Adega do Vale",
+        price: "R$ 45,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1758952378450blob_600.webp",
+        link: "https://pedido.anota.ai/product/68d77bbb9384f644a5b0811d/0/snack-burguer-."
+      },
+      {
+        name: "Del Grano Gold Bordô Suave Rosé",
+        price: "R$ 45,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1758952135773blob_600.webp",
+        link: "https://pedido.anota.ai/product/68d77ac9ad2cee15f5093d1f/0/snack-burguer-."
+      },
+      {
+        name: "Pérgola Tinto Suave 750ml",
+        price: "R$ 40,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1758951460496blob_600.webp",
+        link: "https://pedido.anota.ai/product/68d778259384f644a5b07dcb/0/snack-burguer-."
+      },
+      {
+        name: "Quinta do Morgado Tinto Suave",
+        price: "R$ 38,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1758952089889blob.webp",
+        link: "https://pedido.anota.ai/"
+      },
+      {
+        name: "Vinho Chalise Tinto Suave",
+        price: "R$ 38,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1758952309770blob_600.webp",
+        link: "https://pedido.anota.ai/product/68d77b769384f644a5b080de/0/snack-burguer-."
+      },
+      {
+        name: "Sangue de Boi",
+        price: "R$ 36,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1758952192140blob_600.webp",
+        link: "https://pedido.anota.ai/product/68d77b016d9fc4ea21abc619/0/snack-burguer-."
+      },
+      {
+        name: "La Colina",
+        price: "R$ 45,00",
+        desc: null,
+        img: "https://client-assets.anota.ai/produtos/682b8d5c471e5e0012ee520d/-1764034210835blob_600.webp",
+        link: "https://pedido.anota.ai/product/692506a3562a48b7204ccddd/0/snack-burguer-."
       }
     ]
   }

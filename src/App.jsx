@@ -5,6 +5,7 @@ import Menu from "./pages/Menu";
 import Gallery from "./pages/Gallery";
 import Location from "./pages/Location";
 import MainLayout from "./layouts/MainLayout";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/Gallery" element={<Gallery />} />
         <Route path="/location" element={<Location />} />
       </Routes>
+      <ScrollToTopButton />
     </MainLayout>
   );
 }

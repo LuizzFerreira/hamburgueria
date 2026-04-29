@@ -14,8 +14,7 @@ export default function Showcase() {
             <span>ARTESANAL</span>
             <h2>Origem Selecionada</h2>
             <p>
-              Fazemos parcerias com produtores locais para trazer carne de pasto
-              e vegetais orgânicos da estação.
+              Uma curadoria rigorosa de ingredientes que transforma nossa tábua em uma experiência única de sabores autênticos e texturas irresistíveis."
             </p>
           </div>
         </div>
@@ -27,8 +26,7 @@ export default function Showcase() {
             <span>ACOMPANHAMENTOS</span>
             <h2>Desejo Trufado</h2>
             <p>
-              Nossas famosas batatas cortadas à mão, finalizadas com óleo de trufa branca
-              e parmesão envelhecido 24 meses.
+              Uma explosão de texturas. Mergulhe no nosso blend trufado, finalizado com frutas frescas e o toque do chef.
             </p>
           </div>
         </div>

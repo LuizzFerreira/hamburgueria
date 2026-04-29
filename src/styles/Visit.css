@@ -13,9 +13,37 @@
   gap: 40px;
   max-width: 1800px;
   margin: auto;
+  overflow: hidden;
 }
 .visit-content {
   max-width: 500px;
+  animation: slideInRight 1s ease-out forwards;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes slideInRight {
+  from { 
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .visit h2 {
@@ -47,6 +75,7 @@
 .visit-image {
   border-radius: 12px;
   width: 400px;
+  animation: slideInLeft 1s ease-out forwards;
 }
 
 @media (max-width: 768px) {

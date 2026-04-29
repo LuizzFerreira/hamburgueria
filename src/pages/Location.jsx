@@ -1,4 +1,6 @@
 import "../styles/Location.css";
+import img1 from "../assets/img/image-5.webp";
+import img2 from "../assets/img/image-10.webp";
 
 export default function Location() {
   return (
@@ -55,8 +57,8 @@ export default function Location() {
 
       {/* Gallery FINAL */}
       <div className="location-bottom">
-        <div className="img img1" />
-        <div className="img img2" />
+        <div className="img img1" style={{ backgroundImage: `url(${img1})` }} />
+        <div className="img img2" style={{ backgroundImage: `url(${img2})` }} />
 
         <div className="follow">
           <h3>Siga o Sabor</h3>

@@ -52,7 +52,10 @@
 .big-card h2 {
   margin: 5px 0;
 }
-
+.big-card.left > .content{
+  max-width: 400px;
+  text-align: left;
+}
 /* BOTTOM */
 .showcase-bottom {
   display: grid;
