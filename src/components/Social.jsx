@@ -18,7 +18,7 @@ export default function Social() {
         <a href="https://wa.me/5597984160533" className="social-item whatsapp" target="_blank" rel="noreferrer">
             <img className="WpLogo" src={WpLogo} alt="SNACK Logo" />
         </a>
-        <a href="https://instagram.com/seuinsta" className="social-item instagram" target="_blank" rel="noreferrer">
+        <a href="https://www.instagram.com/snackburguer_apui" className="social-item instagram" target="_blank" rel="noreferrer">
           <img className="InstaLogo" src={InstaLogo} alt="SNACK Logo" />
         </a>
         <a href="tel:+5597984160533" className="social-item phone">
