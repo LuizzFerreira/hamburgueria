@@ -140,12 +140,10 @@ button {
     justify-content: center;
   }
   .hero-content {
-    text-align: center;
+    text-align: left;
   }
   .hero h1 {
     font-size: 40px;
-  }
-  .buttons {
-    justify-content: center;
+    line-height: 2.7rem;
   }
 }
