@@ -2,11 +2,12 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Hero.css";
 import img1 from "../assets/img/image-10.webp";
-import img2 from "../assets/img/image-7.webp";
+import img5 from "../assets/img/image-7.webp";
 import img3 from "../assets/img/image-11.webp";
-import img4 from "../assets/img/image-12.webp";;
+import img4 from "../assets/img/image-12.webp";
+import img2 from "../assets/img/image-16.webp";
 
-const images = [img1, img2, img3, img4];
+const images = [img1, img2, img3, img4, img5];
 
 export default function Hero() {
   const [index, setIndex] = useState(0);
