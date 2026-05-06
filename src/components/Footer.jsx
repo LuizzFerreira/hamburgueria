@@ -6,12 +6,12 @@ export default function Footer() {
       <div>
         <div className="footer-left">
           <h2>SNACK</h2>
-          <p>© 2024 Snack Artisanal Burgers. All rights reserved.</p>
+          <p>© 2024 Snack Artisanal Burgers. Todos os direitos reservados.</p>
         </div>
         <div className="footer-center">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-          <a href="#">Press Kit</a>
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Termos de Serviço</a>
+          <a href="#">Kit de Imprensa</a>
         </div>
       </div>
     </footer>

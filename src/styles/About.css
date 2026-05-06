@@ -1,0 +1,89 @@
+.qs-section {
+  width: 100%;
+  padding: 100px 8%;
+  background: #0a0a0a;
+  color: #fff;
+}
+
+.qs-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* LEFT (IMAGEM) */
+.qs-left {
+    width: 329px;
+    height: auto;
+}
+
+.qs-left img {
+    width: 100%;
+    max-width: 325px;
+    height: 468px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center bottom;
+}
+
+/* RIGHT (TEXTO) */
+.qs-right {
+  flex: 1;
+}
+
+.qs-right h4 {
+  color: #FE8F38;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.qs-right h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.qs-right h2 span {
+  background: linear-gradient(90deg, #F72B52, #FE8F38);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.qs-right p {
+  margin-bottom: 15px;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+/* BOTÃO */
+.qs-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(135deg, #F72B52, #FE8F38);
+  transition: 0.3s;
+}
+
+.qs-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .qs-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .qs-right h2 {
+    font-size: 28px;
+  }
+}
