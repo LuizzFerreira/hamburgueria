@@ -86,4 +86,7 @@
   .qs-right h2 {
     font-size: 28px;
   }
+  .qs-container .qs-left {
+    order: 1;
+  }
 }
