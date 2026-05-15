@@ -21,6 +21,7 @@
   align-items: flex-end;
   background-size: cover;
   background-position: center;
+  text-align: left;
 }
 
 .big-card .img-back {
@@ -36,7 +37,7 @@
 .big-card .overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+  background: linear-gradient(to top, rgba(0,0,0,1), transparent);
 }
 
 .big-card .content {
@@ -47,11 +48,18 @@
 
 .big-card span {
   color: orange;
-  font-size: 12px;}
+  font-size: 12px;
+  font-family: 'Arial Black', sans-serif;
+}
 
 .big-card h2 {
   margin: 5px 0;
-      color: #fff;
+  color: #fff;
+  font-family: 'Arial Black', sans-serif;
+  font-size: 30px;
+}
+.big-card p {
+  opacity: 0.8;
 }
 .big-card.left > .content{
   max-width: 400px;
@@ -78,6 +86,9 @@
 }
 
 .icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
   font-size: 20px;
   margin-bottom: 10px;
 }

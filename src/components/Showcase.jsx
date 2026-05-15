@@ -1,6 +1,9 @@
 import "../styles/Showcase.css";
 import img1 from "../assets/img/image-8.webp";
 import img2 from "../assets/img/image-9.webp";
+import img3 from "../assets/img/image-30.png";
+import img4 from "../assets/img/image-31.png";
+import img5 from "../assets/img/image-32.png";
 
 export default function Showcase() {
   return (
@@ -35,7 +38,7 @@ export default function Showcase() {
       {/* BOTTOM (cards pequenos) */}
       <div className="showcase-bottom">
         <div className="small-card">
-          <div className="icon">🍴</div>
+          <img className="icon" src={img3} alt="SNACK" />
           <h3>Especiais do Dia</h3>
           <p>
             Lançamentos limitados curados pelo Chef que desafiam os limites da
@@ -44,7 +47,7 @@ export default function Showcase() {
         </div>
 
         <div className="small-card">
-          <div className="icon">🚚</div>
+          <img className="icon" src={img4} alt="SNACK" />
           <h3>Entrega Expressa</h3>
           <p>
             Da nossa grelha para sua porta em menos de 30 minutos. Fresco, quente e
@@ -53,7 +56,7 @@ export default function Showcase() {
         </div>
 
         <div className="small-card">
-          <div className="icon">🍺</div>
+          <img className="icon" src={img5} alt="SNACK" />
           <h3>Harmonização</h3>
           <p>
             Seleção curada de cervejas artesanais locais e refrigerantes retrô para
