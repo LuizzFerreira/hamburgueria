@@ -1,6 +1,6 @@
 import "../styles/About.css";
 
-import ImgAbout from "../assets/img/image-17.webp";
+import ImgAbout from "../assets/img/image-14.webp";
 
 export default function QuemSomos() {
   return (

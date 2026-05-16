@@ -8,19 +8,18 @@ export default function Visit() {
       <div>
         <div className="visit-content">
           <span className="tag">VISITE-NOS</span>
-          <h2>No Coração da Cidade</h2>
+          <h2>Seu Lugar Favorito</h2>
           <p>
-            Encontre-nos no distrito histórico, onde a energia urbana encontra a
-            tradição artesanal. Junte-se a nós para a experiência SNACK completa.
+Viva a experiência SNACK com hambúrgueres artesanais, qualidade e sabor em cada detalhe.
           </p>
           <div className="info">
             <div>
               <span>📍</span>
-              <p>Rua dos Hambúrgueres, 123<br />Bairro Gastronômico, SP</p>
+              <p>Rua Brasília, 112 - Centro, Apuí - AM</p>
             </div>
             <div>
               <span>⏰</span>
-              <p>Seg-Dom: 11:00 - 23:00</p>
+              <p>Seg-Dom: 11:00 - 00:00</p>
             </div>
           </div>
           <Link to="/location">

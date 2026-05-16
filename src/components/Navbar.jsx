@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 
-import logo from "../assets/img/image.png";
+import logo from "../assets/img/image.webp";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);

@@ -6,10 +6,12 @@ import Gallery from "./pages/Gallery";
 import Location from "./pages/Location";
 import MainLayout from "./layouts/MainLayout";
 import ScrollToTopButton from "./components/ScrollToTopButton";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <MainLayout>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
